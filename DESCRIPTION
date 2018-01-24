@@ -11,3 +11,6 @@ Author: Noam Ross
 Maintainer: Noam Ross <noam.ross@gmail.com>
 URL: https://github.com/noamross/luar
 BugReports: https://github.com/noamross/luar/issues
+Suggests: 
+    covr,
+    testthat
