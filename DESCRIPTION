@@ -1,0 +1,13 @@
+Package: luar
+Version: 0.0.1
+Title: Experimental embedding of lua in R
+Description: What the package does (one paragraph).
+Authors@R: person("Noam", "Ross", , "noam.ross@gmail.com", c("aut", "cre"))
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+ByteCompile: true
+Author: Noam Ross
+Maintainer: Noam Ross <noam.ross@gmail.com>
+URL: https://github.com/noamross/luar
+BugReports: https://github.com/noamross/luar/issues
