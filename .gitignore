@@ -13,5 +13,6 @@ src/symbols.rds
 src/lua-5.3.4/doc/*.*
 src/lua-5.3.4/src/lua
 src/lua-5.3.4/src/luac
+src/lua-5.3.4/src/*.a
 
 *.tar.gz
