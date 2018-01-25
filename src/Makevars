@@ -1,0 +1,10 @@
+PKG_LIBS = -Llua-5.3.4/src -llua #-LLuaJIT-2.0.5/src -llua
+
+$(SHLIB): lua-5.3.4/src/liblua.a #LuaJIT-2.0.5/src/libluajit.a
+
+lua-5.3.4/src/liblua.a:
+	@(cd lua-5.3.4 && $(MAKE) posix)
+
+#LuaJIT-2.0.5/src/libluajit.a:
+#	@(cd LuaJIT-2.0.5/src && $(MAKE))
+

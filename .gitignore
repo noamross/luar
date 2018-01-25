@@ -2,4 +2,14 @@
 .Rhistory
 .RData
 .Ruserdata
+.DS_Store
 
+inst/lib
+src/*.o
+src/*.a
+src/*.so
+src/*.dll
+src/symbols.rds
+src/lua-5.3.4/doc/*.*
+
+*.tar.gz
