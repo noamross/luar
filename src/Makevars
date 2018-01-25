@@ -3,5 +3,5 @@ PKG_LIBS = -Llua-5.3.4/src -llua
 $(SHLIB): lua-5.3.4/src/liblua.a #LuaJIT-2.0.5/src/libluajit.a
 
 lua-5.3.4/src/liblua.a:
-	@(cd lua-5.3.4/src && $(MAKE) a SYSCFLAGS="-DLUA_USE_MACOSX" SYSLIBS="-lreadline" CC=cc)
+	@(cd lua-5.3.4/src && $(MAKE) a SYSCFLAGS="-DLUA_USE_POSIX")
 
