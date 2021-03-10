@@ -9,7 +9,7 @@ status](https://travis-ci.org/noamross/luar.svg?branch=master)](https://travis-c
 status](https://ci.appveyor.com/api/projects/status/vhnw8ofelxu7bs8m?svg=true)](https://ci.appveyor.com/project/NoamRoss/luar)
 [![Coverage
 status](https://codecov.io/gh/noamross/luar/branch/master/graph/badge.svg)](https://codecov.io/github/noamross/luar?branch=master)
-[![lifecycle](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
+[![Project Status: Abandoned – Initial development has started, but there has not yet been a stable, usable release; the project has been abandoned and the author(s) do not intend on continuing development.](https://www.repostatus.org/badges/latest/abandoned.svg)](https://www.repostatus.org/#abandoned)
 
 The goal of luar is to explore embedding of the [lua
 language](https://www.lua.org) in R. It’s mostly an experiment for me to
